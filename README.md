@@ -18,6 +18,7 @@ RestartSec=10
 [Install]
 WantedBy=multi-user.target
 
+The jar file to be uploaded resides in 
 Below are the environment variables:
 
 FANISI_DB_PASS=db_password
