@@ -18,7 +18,7 @@ RestartSec=10
 [Install]
 WantedBy=multi-user.target
 
-The jar file to be uploaded resides in 
+To build the jar file navigate to the root folder of the project and run the following command (mvn -e package -Dmaven.test.skip=true), once done upload the generated jar file (target/generated_file.jar) to the hosting server and refrence the actual name and location of the file in the service created above. 
 Below are the environment variables:
 
 FANISI_DB_PASS=db_password
